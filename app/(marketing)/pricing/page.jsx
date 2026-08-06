@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     question: "Do I need to install any software?",
-    answer: "No, ClinicOS is entirely cloud-based. You can access it securely from any web browser on your computer, tablet, or smartphone."
+    answer: "No, Al Shifa Clinic is entirely cloud-based. You can access it securely from any web browser on your computer, tablet, or smartphone."
   },
   {
     question: "Is my patient data secure?",

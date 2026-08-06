@@ -45,7 +45,7 @@ function Home() {
     transition={{ duration: 0.5, delay: 0.2 }}
     className="text-lg md:text-xl text-text-secondary leading-relaxed mb-10 max-w-2xl mx-auto"
   >
-              Streamline appointments, digital prescriptions, patient records, and billing with ClinicOS. The all-in-one software built specifically for modern doctors.
+              Streamline appointments, digital prescriptions, patient records, and billing with Al Shifa Clinic. The all-in-one software built specifically for modern doctors.
             </motion.p>
 
             <motion.div
@@ -78,7 +78,7 @@ function Home() {
               <div className="rounded-xl overflow-hidden bg-white border border-border-subtle relative aspect-[16/9] md:aspect-[16/10] lg:aspect-[16/9]">
                 <img
     src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=2000"
-    alt="ClinicOS Dashboard"
+    alt="Al Shifa Clinic Dashboard"
     className="w-full h-full object-cover object-top opacity-90"
   />
                 <div className="absolute inset-0 bg-gradient-to-t from-white/80 via-transparent to-transparent" />
@@ -131,7 +131,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl font-bold text-navy-900 mb-6">Everything you need to manage your practice</h2>
-            <p className="text-lg text-text-secondary">Stop switching between different tools. ClinicOS brings your patients, appointments, prescriptions, and billing into one seamless workflow.</p>
+            <p className="text-lg text-text-secondary">Stop switching between different tools. Al Shifa Clinic brings your patients, appointments, prescriptions, and billing into one seamless workflow.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -181,7 +181,7 @@ function Home() {
       <section className="py-24 bg-bg-app border-y border-border-subtle">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl font-bold text-navy-900 mb-6">How ClinicOS Works</h2>
+            <h2 className="text-4xl font-bold text-navy-900 mb-6">How Al Shifa Clinic Works</h2>
             <p className="text-lg text-text-secondary">A simple 3-step workflow designed to save you hours of admin work every week.</p>
           </div>
 
@@ -312,7 +312,7 @@ function Home() {
 
         <div className="container mx-auto px-4 relative z-10 text-center max-w-3xl">
           <h2 className="text-4xl font-bold mb-6">Ready to modernize your clinic?</h2>
-          <p className="text-xl text-blue-100 mb-10">Join thousands of doctors who trust ClinicOS to run their practice efficiently.</p>
+          <p className="text-xl text-blue-100 mb-10">Join thousands of doctors who trust Al Shifa Clinic to run their practice efficiently.</p>
           <Button size="lg" className="h-14 px-10 bg-white text-brand-blue hover:bg-slate-100 rounded-full text-lg font-bold shadow-xl" asChild>
             <Link href="/login">Create Free Account</Link>
           </Button>

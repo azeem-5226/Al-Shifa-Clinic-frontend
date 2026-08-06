@@ -12,7 +12,7 @@ function MarketingFooter() {
               <div className="p-2 bg-brand-blue rounded-xl">
                 <Stethoscope className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold tracking-tight">ClinicOS</span>
+              <span className="text-xl font-bold tracking-tight">Al Shifa Clinic</span>
             </Link>
             <p className="text-sm text-slate-400 max-w-xs">
               Elevating patient care with modern, intelligent clinic management. Run your entire clinic from one modern platform.
@@ -83,14 +83,14 @@ function MarketingFooter() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-brand-blue shrink-0" />
-                <span>support@clinicos.com</span>
+                <span>support@alshifaclinic.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-navy-700/50 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-slate-500">
-          <p>© {(/* @__PURE__ */ new Date()).getFullYear()} ClinicOS. All rights reserved.</p>
+          <p>© {(/* @__PURE__ */ new Date()).getFullYear()} Al Shifa Clinic. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <span>Built for Modern Healthcare.</span>
           </div>

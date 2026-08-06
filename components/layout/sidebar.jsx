@@ -52,7 +52,7 @@ function Sidebar() {
         <div className="mb-8 px-4">
           <h2 className="text-2xl font-bold text-primary flex items-center gap-2">
             <Image src="/logo.png" alt="Logo" width={24} height={24} className="shrink-0 rounded" />
-            <span className="truncate">{status === "loading" ? "" : session?.user?.clinicName || "ClinicOS"}</span>
+            <span className="truncate">{status === "loading" ? "" : session?.user?.clinicName || "Al Shifa Clinic"}</span>
           </h2>
         </div>
         <div className="flex-1 space-y-1">

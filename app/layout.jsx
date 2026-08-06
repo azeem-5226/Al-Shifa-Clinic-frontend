@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 import { ThemeProvider } from "@/components/providers/theme-provider";
 const metadata = {
-  title: "ClinicOS",
+  title: "Al Shifa Clinic",
   description: "Modern Clinic Management System",
   manifest: "/manifest.json"
 };

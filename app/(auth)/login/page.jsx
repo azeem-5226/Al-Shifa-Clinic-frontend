@@ -121,7 +121,7 @@ function LoginPage() {
             <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
           </div>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
-            ClinicOS
+            Al Shifa Clinic
           </span>
         </div>
 
@@ -170,7 +170,7 @@ function LoginPage() {
             <div className="flex items-center gap-2 mb-2">
               <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
               <h1 className="text-3xl font-bold tracking-tight text-foreground">
-                ClinicOS
+                Al Shifa Clinic
               </h1>
             </div>
             <div className="flex flex-col space-y-3 text-center mb-8">

@@ -31,7 +31,7 @@ function ContactPage() {
     transition={{ delay: 0.1 }}
     className="text-lg text-text-secondary"
   >
-            Have questions about ClinicOS? Our team is here to help you modernize your practice.
+            Have questions about Al Shifa Clinic? Our team is here to help you modernize your practice.
           </motion.p>
         </div>
 
@@ -54,8 +54,8 @@ function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-navy-900">Email Us</p>
-                    <p className="text-text-secondary">support@clinicos.com</p>
-                    <p className="text-text-secondary">sales@clinicos.com</p>
+                    <p className="text-text-secondary">support@alshifaclinic.com</p>
+                    <p className="text-text-secondary">sales@alshifaclinic.com</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">

@@ -22,7 +22,7 @@ function AboutPage() {
     transition={{ delay: 0.1 }}
     className="text-lg md:text-xl text-text-secondary leading-relaxed"
   >
-          We started ClinicOS because we were frustrated with clunky, outdated medical software. 
+          We started Al Shifa Clinic because we were frustrated with clunky, outdated medical software. 
           Our mission is to give healthcare professionals modern tools that get out of the way, 
           so they can focus on what matters most: patient care.
         </motion.p>
@@ -32,7 +32,7 @@ function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-navy-900 mb-4">Meet the Team</h2>
-            <p className="text-text-secondary max-w-2xl mx-auto">The medical and technical minds behind ClinicOS.</p>
+            <p className="text-text-secondary max-w-2xl mx-auto">The medical and technical minds behind Al Shifa Clinic.</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">

@@ -33,7 +33,7 @@ function MarketingNavbar() {
               <Stethoscope className="h-6 w-6" />
             </div>
             <span className={`text-xl font-bold tracking-tight ${scrolled ? "text-navy-900" : "text-brand-blue"}`}>
-              ClinicOS
+              Al Shifa Clinic
             </span>
           </Link>
 

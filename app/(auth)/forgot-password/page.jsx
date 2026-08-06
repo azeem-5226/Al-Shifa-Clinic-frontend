@@ -139,7 +139,7 @@ function ForgotPasswordPage() {
             <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
           </div>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
-            ClinicOS
+            Al Shifa Clinic
           </span>
         </div>
 

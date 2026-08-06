@@ -20,7 +20,7 @@ function FeaturesPage() {
     transition={{ delay: 0.1 }}
     className="text-lg md:text-xl text-text-secondary"
   >
-          Discover how ClinicOS streamlines your workflow, from patient intake to financial reporting.
+          Discover how Al Shifa Clinic streamlines your workflow, from patient intake to financial reporting.
         </motion.p>
       </section>
 
