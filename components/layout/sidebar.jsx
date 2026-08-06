@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useSession } from "next-auth/react";
 import { LayoutDashboard, Users, Stethoscope, Wallet, Settings, UserPlus } from "lucide-react";
@@ -50,7 +51,7 @@ function Sidebar() {
       <div className="flex h-full flex-col px-3 py-4">
         <div className="mb-8 px-4">
           <h2 className="text-2xl font-bold text-primary flex items-center gap-2">
-            <Stethoscope className="h-6 w-6 shrink-0" />
+            <Image src="/logo.png" alt="Logo" width={24} height={24} className="shrink-0 rounded" />
             <span className="truncate">{status === "loading" ? "" : session?.user?.clinicName || "ClinicOS"}</span>
           </h2>
         </div>

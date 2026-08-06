@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -117,7 +118,7 @@ function LoginPage() {
   }
         <div className="relative z-20 flex items-center text-3xl font-extrabold gap-3 tracking-tight">
           <div className="bg-white/10 backdrop-blur-md p-3 rounded-2xl text-white shadow-2xl border border-white/20">
-            <Stethoscope className="h-8 w-8" />
+            <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
           </div>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
             ClinicOS
@@ -161,13 +162,13 @@ function LoginPage() {
   }
           <div className="flex lg:hidden justify-center mb-8">
             <div className="bg-blue-600 p-4 rounded-2xl text-white shadow-xl shadow-blue-600/20">
-              <Stethoscope className="h-8 w-8" />
+              <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
             </div>
           </div>
 
           <div className="bg-white dark:bg-slate-900 p-8 rounded-3xl shadow-2xl shadow-slate-200/50 dark:shadow-black/50 border border-slate-100 dark:border-slate-800 transition-all duration-300">
             <div className="flex items-center gap-2 mb-2">
-              <Stethoscope className="h-8 w-8 text-primary" />
+              <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
               <h1 className="text-3xl font-bold tracking-tight text-foreground">
                 ClinicOS
               </h1>

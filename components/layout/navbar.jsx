@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import { LogOut, Menu, X, Settings, Stethoscope, Key } from "lucide-react";
 import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
@@ -93,7 +94,7 @@ function Navbar() {
             </div>
             <div className="px-4 mb-8">
               <h2 className="text-2xl font-bold text-primary flex items-center gap-2">
-                <Stethoscope className="h-6 w-6 shrink-0" />
+                <Image src="/logo.png" alt="Logo" width={24} height={24} className="shrink-0 rounded" />
                 <span className="truncate">{status === "loading" ? "" : session?.user?.clinicName || "ClinicOS"}</span>
               </h2>
             </div>

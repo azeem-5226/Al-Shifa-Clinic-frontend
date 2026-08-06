@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -135,7 +136,7 @@ function ForgotPasswordPage() {
 
         <div className="relative z-20 flex items-center text-3xl font-extrabold gap-3 tracking-tight">
           <div className="bg-white/10 backdrop-blur-md p-3 rounded-2xl text-white shadow-2xl border border-white/20">
-            <Stethoscope className="h-8 w-8" />
+            <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
           </div>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
             ClinicOS
@@ -162,7 +163,7 @@ function ForgotPasswordPage() {
         <div className="mx-auto w-full max-w-[420px]">
           <div className="flex lg:hidden justify-center mb-8">
             <div className="bg-blue-600 p-4 rounded-2xl text-white shadow-xl shadow-blue-600/20">
-              <Stethoscope className="h-8 w-8" />
+              <Image src="/logo.png" alt="Logo" width={32} height={32} className="rounded" />
             </div>
           </div>
 
