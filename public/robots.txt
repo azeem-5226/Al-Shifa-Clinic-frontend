@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /features
+Allow: /pricing
+Allow: /contact
+
+# Disallow private/auth routes
+Disallow: /admin/
+Disallow: /doctor/
+Disallow: /settings/
+Disallow: /login
+Disallow: /register
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.alshifaclinic.com/sitemap.xml
