@@ -13,13 +13,13 @@ export const metadata = {
     "doctor software founders",
   ],
   alternates: {
-    canonical: "https://www.alshifaclinic.com/about",
+    canonical: "https://al-shifa-clinic-frontend.vercel.app/about",
   },
   openGraph: {
     title: "About Us — Al Shifa Clinic",
     description:
       "Built by doctors, for doctors. Learn the story behind Al Shifa Clinic and the team driving modern healthcare in India.",
-    url: "https://www.alshifaclinic.com/about",
+    url: "https://al-shifa-clinic-frontend.vercel.app/about",
   },
 };
 
@@ -28,10 +28,10 @@ export default function AboutPage() {
     title: "About Al Shifa Clinic — Built by Doctors, for Doctors",
     description:
       "Learn about the team behind Al Shifa Clinic — modern clinic management software for Indian doctors.",
-    url: "https://www.alshifaclinic.com/about",
+    url: "https://al-shifa-clinic-frontend.vercel.app/about",
     breadcrumbs: [
-      { name: "Home", url: "https://www.alshifaclinic.com" },
-      { name: "About", url: "https://www.alshifaclinic.com/about" },
+      { name: "Home", url: "https://al-shifa-clinic-frontend.vercel.app" },
+      { name: "About", url: "https://al-shifa-clinic-frontend.vercel.app/about" },
     ],
   });
 

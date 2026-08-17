@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://www.alshifaclinic.com";
+  const baseUrl = "https://al-shifa-clinic-frontend.vercel.app";
 
   return [
     {

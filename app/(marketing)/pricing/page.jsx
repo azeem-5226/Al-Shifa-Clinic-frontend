@@ -15,13 +15,13 @@ export const metadata = {
     "free clinic software India",
   ],
   alternates: {
-    canonical: "https://www.alshifaclinic.com/pricing",
+    canonical: "https://al-shifa-clinic-frontend.vercel.app/pricing",
   },
   openGraph: {
     title: "Pricing — Al Shifa Clinic",
     description:
       "Simple, transparent pricing. Free plan for solo doctors. Pro at ₹999/month. Hospital at ₹2,499/month. No hidden fees.",
-    url: "https://www.alshifaclinic.com/pricing",
+    url: "https://al-shifa-clinic-frontend.vercel.app/pricing",
   },
 };
 
@@ -30,10 +30,10 @@ export default function PricingPage() {
     title: "Al Shifa Clinic Pricing — Free, Pro & Hospital Plans",
     description:
       "Transparent pricing for Al Shifa Clinic. Free plan, Pro at ₹999/month, Hospital at ₹2,499/month.",
-    url: "https://www.alshifaclinic.com/pricing",
+    url: "https://al-shifa-clinic-frontend.vercel.app/pricing",
     breadcrumbs: [
-      { name: "Home", url: "https://www.alshifaclinic.com" },
-      { name: "Pricing", url: "https://www.alshifaclinic.com/pricing" },
+      { name: "Home", url: "https://al-shifa-clinic-frontend.vercel.app" },
+      { name: "Pricing", url: "https://al-shifa-clinic-frontend.vercel.app/pricing" },
     ],
   });
 

@@ -17,13 +17,13 @@ export const metadata = {
     "Al Shifa Clinic",
   ],
   alternates: {
-    canonical: "https://www.alshifaclinic.com",
+    canonical: "https://al-shifa-clinic-frontend.vercel.app",
   },
   openGraph: {
     title: "Al Shifa Clinic — Modern Clinic Management Software for Doctors",
     description:
       "Run your entire clinic from one modern platform. Manage patients, prescriptions, appointments & billing. Trusted by 500+ clinics across India.",
-    url: "https://www.alshifaclinic.com",
+    url: "https://al-shifa-clinic-frontend.vercel.app",
     type: "website",
   },
 };
@@ -33,8 +33,8 @@ export default function HomePage() {
     title: "Al Shifa Clinic — Modern Clinic Management Software for Doctors",
     description:
       "Al Shifa Clinic is an all-in-one clinic management software for Indian doctors.",
-    url: "https://www.alshifaclinic.com",
-    breadcrumbs: [{ name: "Home", url: "https://www.alshifaclinic.com" }],
+    url: "https://al-shifa-clinic-frontend.vercel.app",
+    breadcrumbs: [{ name: "Home", url: "https://al-shifa-clinic-frontend.vercel.app" }],
   });
 
   return (

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.alshifaclinic.com"),
+  metadataBase: new URL("https://al-shifa-clinic-frontend.vercel.app"),
   title: {
     default: "Al Shifa Clinic — Modern Clinic Management Software for Doctors",
     template: "%s | Al Shifa Clinic",
@@ -35,7 +35,7 @@ export const metadata = {
     "appointment scheduling for clinics",
     "polyclinic software",
   ],
-  authors: [{ name: "Al Shifa Clinic", url: "https://www.alshifaclinic.com" }],
+  authors: [{ name: "Al Shifa Clinic", url: "https://al-shifa-clinic-frontend.vercel.app" }],
   creator: "Al Shifa Clinic",
   publisher: "Al Shifa Clinic",
   manifest: "/manifest.json",
@@ -53,7 +53,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://www.alshifaclinic.com",
+    url: "https://al-shifa-clinic-frontend.vercel.app",
     siteName: "Al Shifa Clinic",
     title: "Al Shifa Clinic — Modern Clinic Management Software for Doctors",
     description:
@@ -79,7 +79,7 @@ export const metadata = {
     google: "d7961352525eb210",
   },
   alternates: {
-    canonical: "https://www.alshifaclinic.com",
+    canonical: "https://al-shifa-clinic-frontend.vercel.app",
   },
 };
 

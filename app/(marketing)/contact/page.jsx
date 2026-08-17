@@ -13,13 +13,13 @@ export const metadata = {
     "Al Shifa Clinic help",
   ],
   alternates: {
-    canonical: "https://www.alshifaclinic.com/contact",
+    canonical: "https://al-shifa-clinic-frontend.vercel.app/contact",
   },
   openGraph: {
     title: "Contact Us — Al Shifa Clinic",
     description:
       "Have questions about Al Shifa Clinic? Contact our team for support, sales, or to book a product demo.",
-    url: "https://www.alshifaclinic.com/contact",
+    url: "https://al-shifa-clinic-frontend.vercel.app/contact",
   },
 };
 
@@ -28,10 +28,10 @@ export default function ContactPage() {
     title: "Contact Al Shifa Clinic — Get in Touch",
     description:
       "Contact Al Shifa Clinic for support, sales inquiries, or a product demo.",
-    url: "https://www.alshifaclinic.com/contact",
+    url: "https://al-shifa-clinic-frontend.vercel.app/contact",
     breadcrumbs: [
-      { name: "Home", url: "https://www.alshifaclinic.com" },
-      { name: "Contact", url: "https://www.alshifaclinic.com/contact" },
+      { name: "Home", url: "https://al-shifa-clinic-frontend.vercel.app" },
+      { name: "Contact", url: "https://al-shifa-clinic-frontend.vercel.app/contact" },
     ],
   });
 

@@ -59,7 +59,7 @@ function HomeClient() {
                   Start Free Trial <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto h-14 px-8 rounded-full text-lg border-2 border-border-subtle hover:bg-slate-50 text-navy-900">
+              <Button size="lg" className="w-full sm:w-auto h-14 px-8 rounded-full text-lg border-2 border-slate-300 bg-white hover:bg-slate-50 text-navy-900 font-semibold">
                 Book a Demo
               </Button>
             </motion.div>

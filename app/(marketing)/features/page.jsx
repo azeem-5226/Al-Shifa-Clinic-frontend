@@ -15,13 +15,13 @@ export const metadata = {
     "appointment management",
   ],
   alternates: {
-    canonical: "https://www.alshifaclinic.com/features",
+    canonical: "https://al-shifa-clinic-frontend.vercel.app/features",
   },
   openGraph: {
     title: "Features — Al Shifa Clinic",
     description:
       "Everything you need to run a modern practice. Patient records, prescriptions, appointments, billing — all in one platform.",
-    url: "https://www.alshifaclinic.com/features",
+    url: "https://al-shifa-clinic-frontend.vercel.app/features",
   },
 };
 
@@ -30,10 +30,10 @@ export default function FeaturesPage() {
     title: "Al Shifa Clinic Features — Patient Records, Prescriptions & Billing",
     description:
       "Explore all features of Al Shifa Clinic: EMR, digital prescriptions, smart scheduling, and financial reports.",
-    url: "https://www.alshifaclinic.com/features",
+    url: "https://al-shifa-clinic-frontend.vercel.app/features",
     breadcrumbs: [
-      { name: "Home", url: "https://www.alshifaclinic.com" },
-      { name: "Features", url: "https://www.alshifaclinic.com/features" },
+      { name: "Home", url: "https://al-shifa-clinic-frontend.vercel.app" },
+      { name: "Features", url: "https://al-shifa-clinic-frontend.vercel.app/features" },
     ],
   });
 

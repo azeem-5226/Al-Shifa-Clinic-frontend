@@ -22,8 +22,8 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Al Shifa Clinic",
-  url: "https://www.alshifaclinic.com",
-  logo: "https://www.alshifaclinic.com/icon-512x512.png",
+  url: "https://al-shifa-clinic-frontend.vercel.app",
+  logo: "https://al-shifa-clinic-frontend.vercel.app/icon-512x512.png",
   description:
     "Al Shifa Clinic is an all-in-one clinic management software for doctors and healthcare professionals in India.",
   foundingDate: "2023",
@@ -137,7 +137,7 @@ export function webPageSchema({ title, description, url, breadcrumbs = [] }) {
     isPartOf: {
       "@type": "WebSite",
       name: "Al Shifa Clinic",
-      url: "https://www.alshifaclinic.com",
+      url: "https://al-shifa-clinic-frontend.vercel.app",
     },
   };
 

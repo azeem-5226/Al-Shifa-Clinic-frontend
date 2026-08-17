@@ -14,4 +14,4 @@ Disallow: /register
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://www.alshifaclinic.com/sitemap.xml
+Sitemap: https://al-shifa-clinic-frontend.vercel.app/sitemap.xml
